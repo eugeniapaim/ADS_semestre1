@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-bt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ex5b</title>
+</head>
+<body>
+    <script>
+        
+        var array = [5,5,5,5,4]
+        var resultado
+        function igualOuNao(array) {
+            for (let i = 1; i < array.length; i++) {
+                if (array[i] !== array[0]) {
+                    resultado = false; // Se algum elemento for diferente do primeiro, retorna falso
+                } else {
+                    resultado = true
+                }
+            }
+            return alert(resultado); 
+            
+        }
+        igualOuNao(array);
+
+    </script>
+</body>
+</html>

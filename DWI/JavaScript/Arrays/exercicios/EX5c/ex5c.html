@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-bt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ex5d</title>
+</head>
+<body>
+    <script>
+        
+        var array = [78,19,25,7,98]
+        var maior = array[0]
+        function igualOuNao(array) {
+            for (let i = 1; i < array.length; i++) {
+                if (array[i] > maior) {
+                    maior = array[i]
+                }
+            }
+            return alert(maior); 
+            
+        }
+        igualOuNao(array);
+
+    </script>
+</body>
+</html>

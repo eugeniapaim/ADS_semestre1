@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Loja IFRS</title>
+    <link rel="stylesheet" href="../css/main.css">
+</head>
+<body>
+    <div class="container">
+        <div class="cabecalho">
+            <img src="../images/Logo_vertical.gif" alt="logo IFRS">
+            <h1>Loja do Primeiro Semestre do ADS</h1>
+        </div>
+        <div class="conteudo">
+            <div class="dados-pessoais">
+                <h5>Dados pessoais</h5>
+                <label>Nome:</label>
+                <input type="text" placeholder="Digite seu nome" id="nome">
+                <p class="paragrafo-nome">Nome invalido!</p>
+                
+                <label>E-mail:</label>
+                <input type="email" name="" id="email">
+                <p class="email"></p>
+            </div>
+            <div class="camisetas">
+                <p>Camisetas</p>
+                <label for="">Quantidade de camisetas masculinas:</label>
+                <input type="number" id="" value="0" readonly>
+                <button>+</button>
+                <button>-</button>
+                <br>
+                <label for="">Quantidade de camisetas femininas:</label>
+                <input type="number" id="" value="0" readonly>
+                <button>+</button>
+                <button>-</button>
+            </div>
+            <div class="comentario">
+                <p>Comentário</p>
+                <textarea rows="3" id="comentario" placeholder="Escreva aqui caso deseje fazer algum comentário" onfocus="this.setSelectionRange(0, 0)">
+                </textarea>
+            </div>
+        </div>
+        <div class="rodape">
+            <p class="aluno">Aluno ADS &copy;</p>
+            <p>Rua Santos Dumont, 2127 | Bairro Albatroz | CEP 95520-000 | Osório/RS</p>
+        </div>
+    </div>
+
+    <footer>
+        <label for="">Total:</label>
+        <input type="number">
+        <button>Concluir compra</button>
+    </footer>
+    <script src="../js/main.js"></script>
+</body>
+</html>

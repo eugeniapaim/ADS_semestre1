@@ -1,0 +1,134 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url('../images/padronizacao.jpg');
+    background-attachment: fixed;
+    background-size: cover; 
+    background-position: center; 
+    
+}
+
+.container {
+    max-width: 700px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.cabecalho, .conteudo, .rodape {
+    width: 100%;
+    background-color: aliceblue;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    border-radius: 20px;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.75);
+}
+
+.cabecalho img {
+    max-width: 60px;
+}
+
+.cabecalho h1 {
+    font-size: 1.5em;
+    margin: 0 auto;
+}
+
+.conteudo {
+    flex-direction: column;
+    height: 400px;
+    margin: 20px 0;
+}
+
+.dados-pessoais p {
+    margin: 3px;
+    color: red;
+}
+
+.dados-pessoais {
+    display: inline-block;
+}
+
+
+
+.dados-pessoais,
+.camisetas,
+.comentario {
+    width: 75%;
+    height: 28%;
+    border: 1px solid black;
+    padding: 8px;
+    margin-top: 20px;
+}
+
+.dados-pessoais h5,
+.camisetas p,
+.comentario p {
+    width: 160px;
+    position: relative;
+    background: aliceblue;
+    margin: 8px 0 0 0;
+    padding-left: 4px;
+    top: -25px;
+}
+
+
+
+.dados-pessoais p {
+    width: 117px;
+}
+
+.dados-pessoais input {
+    width: 250px;
+}
+
+.camisetas p {
+    width: 80px;
+}
+
+.camisetas input {
+    margin: 6px 0;
+}
+
+.comentario p {
+    
+    width: 85px;
+}
+
+.comentario textarea{
+    width: 99%;
+    resize: none;
+}
+
+.rodape {
+    margin-bottom: 72px;
+}
+
+.rodape p {
+    margin: 8px 0;
+    width: 500px;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    background-color: green;
+    position: fixed;
+    bottom: 0px;
+    left: 0;
+    padding: 20px;
+}
+
+footer input {
+    margin: 6px;
+    padding: 6px;
+    border-radius: 6px;
+    border: none;
+}
+
+footer button {
+    border: none;
+    border-radius: 6px;
+    padding: 6px;
+}
